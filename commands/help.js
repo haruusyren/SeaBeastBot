@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'jackpot',
-    description: "Déclenche la machine à sous 🎰",
-    execute(message, Client) {
+    name: 'help',
+    description: "Envoie l'aide du bot...",
+    execute(message) {
         message.reply("E")
     }
 }
