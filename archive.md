@@ -1,3 +1,5 @@
+# All the archives of the old code :)
+
 Client.on("messageCreate", async message => {
     
     // module.exports = async(Client, Discord, member) => {
