@@ -3,6 +3,10 @@ module.exports = {
     description: "Déclenche la machine à sous 🎰",
     execute(message, Client) {
             // 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
+            function getRandomInt(max){
+                return Math.floor(Math.random() * max);
+            }
+            
             let args = message.content.split(" ")
 
             if (args[1] === undefined){
